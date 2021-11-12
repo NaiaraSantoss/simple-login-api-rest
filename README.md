@@ -1,4 +1,4 @@
-# simple-login-api-rest
+# simple-registro-pessoa-api-rest
 Simples API REST login com Spring Boot
 ##Setup:
 
