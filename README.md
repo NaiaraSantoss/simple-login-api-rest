@@ -26,7 +26,7 @@ Simples API REST login com Spring Boot
 }`
 ### GET http://localhost:8080/pessoas/1
 
-- Para verificar se as alterações no postman foram realizadas com sucesso, consulte o Database no terminal.
+Para verificar se as alterações no postman foram realizadas com sucesso, consulte o Database no terminal.
 ` sudo mysql
 show databases;
 use table_pessoas;
@@ -38,24 +38,28 @@ select * from pessoa`
 
 ### Instalar Mysql
 
-`sudo apt update 
-sudo apt install mysql-server
-sudo mysql_secure_installation
-sudo mysql 
-CREATE USER 'admin'@'localhost' IDENTIFIED BY 'suasenha'; 
-GRANT ALL PRIVILEGES ON *.* TO 'admin'@'localhost' WITH GRANT OPTION; 
-CREATE USER 'suporte'@'%' IDENTIFIED BY 'suasenha'; 
-GRANT ALL PRIVILEGES ON *.* TO 'suporte'@'%' WITH GRANT OPTION; 
-FLUSH PRIVILEGES;`
+`
+* sudo apt update 
+* sudo apt install mysql-server
+* sudo mysql_secure_installation
+* sudo mysql 
+* CREATE USER 'admin'@'localhost' IDENTIFIED BY 'suasenha'; 
+* GRANT ALL PRIVILEGES ON *.* TO 'admin'@'localhost' WITH GRANT OPTION; 
+* CREATE USER 'suporte'@'%' IDENTIFIED BY 'suasenha'; 
+* GRANT ALL PRIVILEGES ON *.* TO 'suporte'@'%' WITH GRANT OPTION; 
+* FLUSH PRIVILEGES;`
 
 ### Instalar Mysql Client
-`sudo apt install mysql-client`
+`
+* sudo apt install mysql-client`
 
 
 - verificar o inet com “ifconfig”
-`ifconfig`
+`
+* ifconfig`
 saída: 10.0.2.15
-`sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf` #para liberar acesso de outros computadores, mude o bind-address para 0.0.0.0
+`
+* sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf` #para liberar acesso de outros computadores, mude o bind-address para 0.0.0.0
 e mysql-adress para 0.0.0.0
 `skip-name-resolve #conflitos`dns /request de ip
 sudo service mysql restart
