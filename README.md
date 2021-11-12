@@ -30,10 +30,14 @@ Para verificar se as alterações no postman foram realizadas com sucesso, consu
 
 
 `sudo mysql
+
 show databases;
+
 use table_pessoas;
+
 show tables;
-select * from pessoa`
+
+select * from pessoa;`
 
 
 ### Instalar Mysql
