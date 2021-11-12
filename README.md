@@ -2,9 +2,9 @@
 Simples API REST login com Spring Boot
 ##Setup:
 
-* Ubunto 20.04
+* Ubuntu 20.04
 * Java 17
-* Mysql
+* Mysql 8
 * Spring Boot
 * Maven 4.0.0
 * Postman
@@ -80,12 +80,17 @@ Para liberar acesso de outros computadores, mude o bind-address para 0.0.0.0 e m
 `create database table_pessoas;`
 
 - Desinstalar mysql
-- 
+
 ` sudo apt-get remove --purge mysql*
+
 sudo apt-get purge mysql*
+
 sudo apt-get autoremove
+
 sudo apt-get autoclean
+
 sudo apt-get remove dbconfig-mysql
+
 sudo apt-get dist-upgrade`
 
 
