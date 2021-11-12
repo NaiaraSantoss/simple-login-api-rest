@@ -29,15 +29,15 @@ Simples API REST login com Spring Boot
 Para verificar se as alterações no postman foram realizadas com sucesso, consulte o Database no terminal.
 
 
-`sudo mysql
+`sudo mysql`
 
-show databases;
+`show databases;`
 
-use table_pessoas;
+`use table_pessoas;`
 
-show tables;
+`show tables;`
 
-select * from pessoa;`
+`select * from pessoa;`
 
 
 ### Instalar Mysql
