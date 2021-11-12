@@ -66,11 +66,17 @@ select * from pessoa`
 saída: 10.0.2.15
 
 `sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf` 
-#para liberar acesso de outros computadores, mude o bind-address para 0.0.0.0 e mysql-adress para 0.0.0.0
+
+Para liberar acesso de outros computadores, mude o bind-address para 0.0.0.0 e mysql-adress para 0.0.0.0
+
 `skip-name-resolve #conflitos`dns /request de ip
+
 `sudo service mysql restart`
+
 `mysql -usuporte -pInfo@1234 -h10.0.2.15`
+
 `show databases;`
+
 `create database table_pessoas;`
 
 - Desinstalar mysql
