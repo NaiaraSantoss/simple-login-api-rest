@@ -27,7 +27,9 @@ Simples API REST login com Spring Boot
 ### GET http://localhost:8080/pessoas/1
 
 Para verificar se as alterações no postman foram realizadas com sucesso, consulte o Database no terminal.
-` sudo mysql
+
+
+`sudo mysql
 show databases;
 use table_pessoas;
 show tables;
