@@ -81,16 +81,21 @@ Para liberar acesso de outros computadores, mude o bind-address para 0.0.0.0 e m
 
 - Desinstalar mysql
 
-` sudo apt-get remove --purge mysql*
+` sudo apt-get remove --purge mysql*` 
 
-sudo apt-get purge mysql*
 
-sudo apt-get autoremove
+` sudo apt-get purge mysql*` 
 
-sudo apt-get autoclean
 
-sudo apt-get remove dbconfig-mysql
+` sudo apt-get autoremove` 
 
-sudo apt-get dist-upgrade`
+
+` sudo apt-get autoclean` 
+
+
+` sudo apt-get remove dbconfig-mysql` 
+
+
+` sudo apt-get dist-upgrade`
 
 
